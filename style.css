@@ -1,4 +1,23 @@
+:root {
+  --accent-color: #e30035;
+}
+
 html {
   height: 100%;
   width: 100%;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-weight: 300;
+  color: black;
+}
+
+.cta-btn {
+  background-color: var(--accent-color);
+  border-radius: 1rem;
+}
+
+.highlighted {
+  color: var(--accent-color);
 }
